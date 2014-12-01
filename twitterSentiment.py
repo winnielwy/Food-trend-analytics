@@ -11,6 +11,7 @@ from ConfigParser import SafeConfigParser
 from datetime import datetime
 import numpy as np
 import requests
+import semantria_sentiment as ss
 
 start_time = datetime.now() #checking clock time    
 
@@ -42,7 +43,7 @@ def scrapeTweets(geocode,searchTerm):
     search_results = api.search.tweets(q=searchTerm, count=searchCount, 
                                        lang = 'en', geocode = geocode)
     statuses = search_results['statuses']
-        
+
     # Iterate through 5 more batches of results by following the cursor
     for _ in range(5):
         try:
@@ -59,35 +60,48 @@ def scrapeTweets(geocode,searchTerm):
         
     status_texts = [ status['text'] for status in statuses ]
     return status_texts
-'''
-def remove_punctuation(s):
-    punctuation = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~" s_sans_punct = ""
-    for letter in s:
-        if (letter not in punctuation) and (letter in "abcdefghijklmnopqrstuvw xyz "):
-            s_sans_punct += letter return s_sans_punct
-'''
 
-def sentiment_func(city,term,tweet):
-    x = {}
+def sentiment_func(tweet):
     payload = {'txt':tweet}
     r = requests.post("http://sentiment.vivekn.com/api/text/",data=payload)
     result = json.loads(r.text)
-    x = {'city':city,'term':term,'sentiment':result['result']['sentiment'],'tweet':tweet}
-    #print result['result']['sentiment']
+    x =result['result']['sentiment']
     return x
        
 cities = getCities()
 searchTerms = open("food_trends.txt",'r').read().split(',')
-dict1 = []
-#for x in range(len(cities)):
-for x in range(1):    
+list1 = []
+list2 = []
+
+for x in range(len(cities)):
+#for x in range(1):    
     for term in searchTerms:
         geocode = str(cities['latitude'][x])+','+str(cities['longitude'][x])+',25mi'
         results=scrapeTweets(geocode,term)
         for tweet in results:
-            dict1.append(sentiment_func(cities['city'][x],term,tweet))
+            s = sentiment_func(tweet)
+            z = ss.sentiment(tweet,ss.init())
+            list1.append( { 'city':cities['city'][x],'term':term,
+                           'sentiment': s,'tweet':tweet })
+            list2.append( { 'city':cities['city'][x],'term':term,
+                           'sentiment': z,'tweet':tweet })                         
+sentiment = pd.DataFrame(list1)
+sentiment.to_csv("a.csv")
 
-sentiment = pd.DataFrame(dict1)
-sentiment.to_csv("a.csv")        
+#Use semantra
+sentiment2 = pd.DataFrame(list2)
+sentiment2.to_csv("a2.csv")
+
+sentimentTtl = sentiment.groupby(['city','term','sentiment']).count()
+termTtl = sentiment.groupby(['city','term']).count()
+sentimentTtl.to_csv("b.csv")        
+termTtl.to_csv("c.csv")
+
+sentimentTtl2 = sentiment2.groupby(['city','term','sentiment']).mean()
+termTtl2 = sentiment2.groupby(['city','term']).mean()
+sentimentTtl2.to_csv("b2.csv")        
+termTtl2.to_csv("c2.csv")
+
+
 end_time = datetime.now()
 print('Duration: {}'.format(end_time-start_time))
