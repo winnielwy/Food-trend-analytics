@@ -1,0 +1,96 @@
+city,term,tweet
+Atlanta,bacon,86
+Atlanta,chicken and waffles,13
+Atlanta,dumplings,2
+Atlanta,food truck,5
+Atlanta,gluten-free,5
+Atlanta,kale,9
+Atlanta,quinoa,5
+Atlanta,sriracha,5
+Atlanta,tacos,18
+Atlanta,tofu,8
+Charlotte,bacon,17
+Charlotte,dumplings,4
+Charlotte,food truck,2
+Charlotte,gluten-free,2
+Charlotte,kale,4
+Charlotte,quinoa,2
+Charlotte,sriracha,2
+Charlotte,tacos,11
+Charlotte,tofu,5
+Chicago,bacon,63
+Chicago,chicken and waffles,5
+Chicago,dumplings,4
+Chicago,food truck,7
+Chicago,gluten-free,16
+Chicago,kale,16
+Chicago,quinoa,2
+Chicago,sriracha,6
+Chicago,tacos,99
+Chicago,tofu,4
+Denver,bacon,35
+Denver,chicken and waffles,1
+Denver,dumplings,2
+Denver,food truck,2
+Denver,gluten-free,7
+Denver,kale,10
+Denver,sriracha,4
+Denver,tacos,25
+Denver,tofu,1
+Houston,bacon,86
+Houston,chicken and waffles,2
+Houston,dumplings,6
+Houston,food truck,6
+Houston,gluten-free,1
+Houston,kale,6
+Houston,quinoa,3
+Houston,sriracha,7
+Houston,tacos,100
+Houston,tofu,6
+Kansas City MO,bacon,26
+Kansas City MO,dumplings,2
+Kansas City MO,gluten-free,6
+Kansas City MO,kale,2
+Kansas City MO,sriracha,1
+Kansas City MO,tacos,18
+Kansas City MO,tofu,4
+Los Angeles,bacon,79
+Los Angeles,chicken and waffles,45
+Los Angeles,dumplings,8
+Los Angeles,food truck,16
+Los Angeles,gluten-free,28
+Los Angeles,kale,43
+Los Angeles,quinoa,13
+Los Angeles,sriracha,12
+Los Angeles,tacos,100
+Los Angeles,tofu,28
+New York,bacon,95
+New York,chicken and waffles,12
+New York,dumplings,38
+New York,food truck,12
+New York,gluten-free,34
+New York,kale,68
+New York,quinoa,25
+New York,sriracha,12
+New York,tacos,95
+New York,tofu,28
+Portland,bacon,50
+Portland,chicken and waffles,2
+Portland,dumplings,1
+Portland,food truck,7
+Portland,gluten-free,5
+Portland,kale,4
+Portland,quinoa,2
+Portland,sriracha,8
+Portland,tacos,24
+Portland,tofu,5
+Washington DC,bacon,94
+Washington DC,chicken and waffles,5
+Washington DC,dumplings,4
+Washington DC,food truck,6
+Washington DC,gluten-free,7
+Washington DC,kale,10
+Washington DC,quinoa,2
+Washington DC,sriracha,3
+Washington DC,tacos,27
+Washington DC,tofu,2

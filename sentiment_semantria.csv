@@ -1,0 +1,96 @@
+city,term,sentiment
+Atlanta,bacon,0.08314469587454436
+Atlanta,chicken and waffles,0.10185194316465339
+Atlanta,dumplings,0.23650345143849466
+Atlanta,food truck,0.25856090498595913
+Atlanta,gluten-free,-0.06894599429735215
+Atlanta,kale,0.14730532900144588
+Atlanta,quinoa,0.23465698910945113
+Atlanta,sriracha,-0.24992684322122177
+Atlanta,tacos,0.22188431519150023
+Atlanta,tofu,0.18655642318144186
+Charlotte,bacon,0.08037292352271652
+Charlotte,dumplings,0.17941719342432658
+Charlotte,food truck,0.0
+Charlotte,gluten-free,-0.26371077587989317
+Charlotte,kale,0.412822144795049
+Charlotte,quinoa,0.0
+Charlotte,sriracha,0.32536809167664593
+Charlotte,tacos,0.1259991273738949
+Charlotte,tofu,0.3901444069370988
+Chicago,bacon,0.12171677399138822
+Chicago,chicken and waffles,0.13760858504368972
+Chicago,dumplings,0.1435525843982991
+Chicago,food truck,0.27519056742102704
+Chicago,gluten-free,0.15378629144343917
+Chicago,kale,0.13574729189613802
+Chicago,quinoa,0.0
+Chicago,sriracha,0.0
+Chicago,tacos,0.0810333921018121
+Chicago,tofu,-0.35491663712149335
+Denver,bacon,0.2082963455997476
+Denver,chicken and waffles,0.0
+Denver,dumplings,0.31230034755517455
+Denver,food truck,0.0
+Denver,gluten-free,0.43543539960376293
+Denver,kale,0.10960015138125026
+Denver,sriracha,0.350360525222304
+Denver,tacos,0.20663267119966805
+Denver,tofu,0.4286180496639959
+Houston,bacon,0.06940962278915419
+Houston,chicken and waffles,-0.21139568993617489
+Houston,dumplings,0.2601992982685528
+Houston,food truck,0.0
+Houston,gluten-free,0.683452683096368
+Houston,kale,0.25657196071064053
+Houston,quinoa,0.0
+Houston,sriracha,-0.011967280000295868
+Houston,tacos,0.08968256426490058
+Houston,tofu,0.41871624955769
+Kansas City MO,bacon,0.059546033851479926
+Kansas City MO,dumplings,-0.36430861531977393
+Kansas City MO,gluten-free,0.1046690954196896
+Kansas City MO,kale,-0.341726341548184
+Kansas City MO,sriracha,0.5190941123772128
+Kansas City MO,tacos,0.09283683878293819
+Kansas City MO,tofu,0.2511068132446424
+Los Angeles,bacon,0.11734909423724457
+Los Angeles,chicken and waffles,0.0975899196548137
+Los Angeles,dumplings,0.13277449584929077
+Los Angeles,food truck,0.21180369469803398
+Los Angeles,gluten-free,0.09973795980473567
+Los Angeles,kale,0.21715492020295404
+Los Angeles,quinoa,0.31582953140811454
+Los Angeles,sriracha,0.1563978226871144
+Los Angeles,tacos,0.055867377801470886
+Los Angeles,tofu,0.16313550471030805
+New York,bacon,0.056030249549235814
+New York,chicken and waffles,-0.11101044347776275
+New York,dumplings,0.14395735761015038
+New York,food truck,0.3289216049677514
+New York,gluten-free,0.012992608239141324
+New York,kale,0.10278737739290693
+New York,quinoa,0.09877599913376178
+New York,sriracha,0.20236107600169748
+New York,tacos,0.17530188186561962
+New York,tofu,0.21246434379009319
+Portland,bacon,0.0761447327631337
+Portland,chicken and waffles,0.08355223279931685
+Portland,dumplings,0.7570003110696172
+Portland,food truck,0.14090211485311205
+Portland,gluten-free,-0.15846704085879657
+Portland,kale,0.2226945802916786
+Portland,quinoa,0.0
+Portland,sriracha,-0.10269861120987198
+Portland,tacos,0.12047836060650752
+Portland,tofu,0.3935958011829581
+Washington DC,bacon,0.04336362732612033
+Washington DC,chicken and waffles,0.15140006221392344
+Washington DC,dumplings,0.21871557848737952
+Washington DC,food truck,0.44213780331333363
+Washington DC,gluten-free,0.28883237733005496
+Washington DC,kale,0.17505600676344163
+Washington DC,quinoa,0.0
+Washington DC,sriracha,0.23922292456576877
+Washington DC,tacos,0.11910313368785437
+Washington DC,tofu,0.0
