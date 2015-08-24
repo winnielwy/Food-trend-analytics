@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 28 20:11:01 2014
 
-@author: mdotnasty
-"""
 import twitter
 import pandas as pd
 from ConfigParser import SafeConfigParser
