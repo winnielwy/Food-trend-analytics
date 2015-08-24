@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 30 22:44:34 2014
 
-@author: mdotnasty
-"""
 
 import requests
 import json
