@@ -1,6 +1,6 @@
 """
 Created on Tue Oct 28 11:44:02 2014 
-@author: kmr
+
 """
 import urllib2
 from bs4 import BeautifulSoup
