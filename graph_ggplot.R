@@ -1,6 +1,7 @@
 load("~/Desktop/wenyingliu/data.RData")
-
-#adjustcount-term
+#just test something
+##02012018
+######adjustcount-term
 p<-ggplot(food,aes(term,adjcount,group=city))
 p+geom_line(aes(color=city))
 
